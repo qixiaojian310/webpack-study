@@ -94,3 +94,13 @@ module.exports = {
   ],
 };
 ```
+
+## 起步
+
+### 初始化
+
+1. 先npm init 创建目录
+
+2. npx webpack可以默认使用src/index.js作为默认的入口，dist/main.js作为默认出口被创建，index.html可以直接使用main.js来运行,可以代替index.js
+
+3. $ npx webpack --config webpack.config.js可以加上对应的配置文件
